@@ -50,7 +50,7 @@ function App() {
         }
         {toDos.map((obj) => {
           if (obj.status) {
-            return (<h1>{obj.text}</h1>)
+            return (<h1 style={{ color: "grey" }}>{obj.text}</h1>)
           }
           return null
         })}
